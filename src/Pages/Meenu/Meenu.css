@@ -1,0 +1,15 @@
+.Meenu{
+    
+    display: flex;
+    justify-content: end;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.option{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+

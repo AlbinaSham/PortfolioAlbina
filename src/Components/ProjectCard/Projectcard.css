@@ -1,0 +1,60 @@
+.my-project-object{
+    display: flex;
+    margin: 2%;
+    border-radius:10px;
+     -webkit-border-radius:10px;
+     -moz-border-radius:10px;
+     box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55); 
+     overflow: auto;
+   
+ }
+ 
+ 
+ .my-project-object:hover{
+    width: 101%;
+   
+ }
+ 
+ .gif-container{
+     margin: 0 5%;
+ }
+ .decription-container{
+     width: 50%;
+     margin: 5% 6%;
+     text-align: left;
+     overflow: auto;
+ }
+ .decription-container p{
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ .decription-container h3{
+     
+     width: fit-content;
+     font-family: 'Montserrat', sans-serif;
+ }
+ .options{
+     padding: 0%;
+     margin: 3% 0;
+     display: flex;
+     width: 37%;
+     justify-content: flex-start;
+     align-items: center;
+ }
+ .icon-hover{
+    
+    margin-left: 20px;
+ }
+ .icon-hover:hover{
+     color: gray;
+ }
+
+ @media screen and (max-device-width: 780px) {
+    .my-project-object{
+        display: block;
+    }
+    .decription-container{
+        margin: 0 auto;
+    }
+
+ }

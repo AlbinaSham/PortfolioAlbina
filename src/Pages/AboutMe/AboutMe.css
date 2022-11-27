@@ -1,0 +1,33 @@
+.my-tools-container{
+    width: 75%;
+    margin: 12% 13%;
+}
+
+.my-tools-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0%;
+}
+
+.my-tools-image{
+    background-image: url(./../../assets/4.jpg);
+    width: 350px;
+    height: 360px;
+    border-radius: 55%;
+    background-size:cover;
+    background-position: center;
+}
+.about-me-description{
+    width: 60%;
+    text-align: left;
+    margin-top: 4%;
+}
+.about-me-description p, h3{
+    font-size: 1.5rem;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.about-me-description span{
+    background: linear-gradient(to top,yellow 60%, transparent 0);
+    font-family: 'Grape Nuts', cursive;
+}

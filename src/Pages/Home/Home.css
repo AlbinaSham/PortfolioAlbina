@@ -1,0 +1,150 @@
+:root {
+    --bg-color: white;
+    --typewriterSpeed: 4s;
+    --typewriterCharacters: 16;
+    --bg-yellow: yellow;
+  }
+
+
+.home{
+    margin: 0;
+    width: 100vw;
+    font-family: "Source Sans Pro", sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background: var(--bg-color);
+    
+
+}
+
+
+
+.hi-smile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hi-smile h1{
+    font-size: 4rem;
+    position: relative;
+    font-family: "Source Code Pro", monospace;
+    position: relative;
+    width: max-content;
+    margin-bottom: 5%;
+}
+
+.hi-smile h1::before,
+.hi-smile h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+h1::before {
+    background: var(--bg-color);
+    animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards;
+  }
+  
+  h1::after {
+    width: 0.05em;
+    background: black;
+    animation: typewriter var(--typewriterSpeed)
+        steps(var(--typewriterCharacters)) 1s forwards,
+      blink 750ms steps(var(--typewriterCharacters)) infinite;
+  }
+
+.smile{
+    width: 200px;
+    height: 200px;
+}
+
+.description::before,
+.description::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.description {
+  font-family: 'Grape Nuts', cursive;
+   margin: 0 auto;
+   width: 300px;
+   font-size: 4rem;
+   font-size: 2rem;
+   font-weight: 400;
+   opacity: 0;
+   transform: translateY(3rem);
+   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards,
+   highlight 5.5s 6.4s forwards;
+}
+
+
+
+
+ 
+
+
+
+@keyframes typewriter {
+    to {
+     
+      left: 100%;
+    }
+  }
+  
+  
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      
+    }
+  }
+
+
+  @keyframes highlight{
+    /* background: linear-gradient(to top, yellow 60%, transparent 0);*/
+    from{
+        left:0;
+    }
+    to{
+      background: linear-gradient(to top,yellow 60%, transparent 0); 
+      right: 50px;
+    }
+  
+  }
+
+  @media screen and (max-device-width: 768px) {
+    .home{
+      min-height: 80vh;
+    }
+
+    .hi-smile h1{
+      font-size: 3.2rem;
+    }
+  }
+
+  @media screen and (max-device-width: 480px) {
+
+    .hi-smile h1{
+      font-size: 2.5rem;
+      margin-right: 10px;
+    }
+  }

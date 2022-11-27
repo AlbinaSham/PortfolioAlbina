@@ -1,0 +1,38 @@
+.DropdownMeenu{
+   
+    width: 400px;
+    z-index: 3;
+    position: fixed;
+    top: 40px;
+    right: 0;
+    height: 100%;
+    display: grid;
+    
+    background-color:white;
+    animation: rigtToLeft 1.2s both;    
+}
+
+.links-dropdown{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 150px;  
+      
+}
+
+.link-dropdown{
+    margin: 5px;
+    font-size: 1.2rem;
+}
+.link-dropdown:hover{
+    background-color: yellow;
+    font-size: 1.3rem;
+}
+
+@keyframes rigtToLeft {
+    from{
+       right: -150px;
+    }
+   to {
+    right: 0.5vh;
+   }
+  }

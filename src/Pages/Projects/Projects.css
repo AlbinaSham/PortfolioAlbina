@@ -1,0 +1,7 @@
+.my-project-div{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 12%;
+
+}

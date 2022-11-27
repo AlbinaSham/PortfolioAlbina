@@ -1,0 +1,67 @@
+   
+   
+    import react, {useState} from "react";
+import { Link } from 'react-router-dom';
+
+import DropdownMeenu from "../DropdownMeenu/DropdownMeenu";
+
+import './IconMeenu.css';
+
+
+const IconMeenu = () =>{
+    const [status, setStatus] = useState('close');
+    const [toggle, setToggle] = useState(false);
+    return(
+        <div>
+           <div className="IconMeenu">
+            <nav className="navigation">
+            <Link className='option' to='/'>
+                  HOME
+             </Link>
+             <Link className='option' to='/projects'>
+                  PROJECTS
+             </Link>
+             <Link className='option' to='/contactme'>
+                  CONTACT ME
+             </Link>
+                
+            </nav>
+            </div>
+           
+           <div className="DropdownMeenu" >
+           
+            <button className="MeenuButton" onClick={() => setToggle(!toggle)} > 
+          </button>       
+          { toggle ? <DropdownMeenu /> : null }
+          </div>
+            
+            <div className="IconMeenuSpanContainer"
+         role="button"
+         onClick={() => setStatus(status === 'open' ? 'close' : 'open')} >
+             <span className={status} ></span>
+             <span className={status} ></span>
+             <span className={status} ></span>
+         </div>
+        </div>
+        
+       
+        
+           
+        
+        
+    );
+   
+};
+
+
+export default IconMeenu;
+
+
+<div className="DropdownMeenu" >
+           
+<button className="MeenuButton" onClick={() => setToggle(!toggle)} > 
+</button>       
+{ toggle ? <DropdownMeenu /> : null }
+</div>
+   
+ 

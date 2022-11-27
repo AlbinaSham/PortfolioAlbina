@@ -1,0 +1,67 @@
+.group {
+  position: relative;
+  margin:  0;
+}
+
+
+
+.form-input{
+  
+  background: none;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+  margin: 25px 0;
+  
+
+
+  
+}
+
+.form-input:focus {
+  outline: none;
+   
+}
+
+.form-input:focus-within ~ .form-input-label {
+  animation: shrink 0.8s  forwards;
+  transition: 300ms ease all;
+}
+
+
+
+.form-input-label{
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 33px;
+  
+  
+}
+
+.shrink.form-input-label{
+  animation: shrink 0.8s  forwards;
+}
+
+@keyframes shrink {
+  from {
+   top: 33px;
+   color: black;
+  }
+
+  to {
+    top: 12px;
+    color: grey;
+    font-size: 13px;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  
+}

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
 import './App.css';
+import IconMeenu from './Components/IconMeenu/IconMeenu';
+
+
+import ContactMe from './Pages/ContactMe/ContactMe';
+import Home from './Pages/Home/Home';
+import Meenu from './Pages/Meenu/Meenu';
+import Projects from './Pages/Projects/Projects';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+       <Meenu />
+      <Switch>
+        <Route to exact path='/' component={Home}>
+             
+        </Route>
+        <Route to path='/contactme' component={ContactMe}>
+           
+        </Route>
+        <Route to path='/projects' component={Projects}>
+           
+        </Route>
+      </Switch>
+    </Router>
+    
+      
     </div>
   );
 }

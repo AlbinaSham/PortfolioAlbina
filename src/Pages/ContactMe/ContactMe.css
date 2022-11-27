@@ -1,0 +1,98 @@
+.main-contact-me-container{
+    width: 60vw;
+    margin: 4% 20%;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+    padding-top: 5%;
+    overflow: auto;
+    
+}
+
+
+
+.contact-me{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 10%;
+      
+}
+.contact-me-icons{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    text-align: justify;
+    overflow: auto;
+    margin: 5% auto;
+    padding-right: 15px;
+    
+}
+.icon-hover:hover{
+    color: gray;
+}
+.icon-text p{
+    
+    font-size: 1.2rem;
+    margin-top: 0%;
+    
+}
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    width: 120px;
+    margin: 5%;
+}
+
+
+.contact-me-form{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    
+
+    
+}
+.textArea{
+    border: none;
+    border-bottom:solid 2px black ;
+    overflow: auto;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-device-width: 768px) {
+    .main-contact-me-container{
+       
+        width: 76vw;
+        margin: 3% 12%;
+        height: 83vh;
+    }
+    .contact-me{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .contact-me-icons{
+        width:50vw ;
+    }
+    .contact-me-form{
+        width: 300px;
+        height: 90vh;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-device-width: 480px) {
+    .main-contact-me-container{
+        height: 100vh;
+        overflow: auto;
+    }
+
+}
