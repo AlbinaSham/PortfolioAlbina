@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a897575.css",
-    "main.js": "/static/js/main.3886e436.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/4.jpg": "/static/media/4.e13cafc92aee3e7803df.jpg",
-    "index.html": "/index.html",
-    "main.2a897575.css.map": "/static/css/main.2a897575.css.map",
-    "main.3886e436.js.map": "/static/js/main.3886e436.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/PortfolioAlbina/static/css/main.56c7bb46.css",
+    "main.js": "/PortfolioAlbina/static/js/main.20f5b6bb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PortfolioAlbina/static/js/787.28cb0dcd.chunk.js",
+    "static/media/4.jpg": "/PortfolioAlbina/static/media/4.e13cafc92aee3e7803df.jpg",
+    "index.html": "/PortfolioAlbina/index.html",
+    "main.56c7bb46.css.map": "/PortfolioAlbina/static/css/main.56c7bb46.css.map",
+    "main.20f5b6bb.js.map": "/PortfolioAlbina/static/js/main.20f5b6bb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PortfolioAlbina/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a897575.css",
-    "static/js/main.3886e436.js"
+    "static/css/main.56c7bb46.css",
+    "static/js/main.20f5b6bb.js"
   ]
 }
