@@ -63,5 +63,8 @@
   }
 }
 @media screen and (max-device-width: 480px) {
+  .form-input{
+    width: 80%;
+  }
   
 }

@@ -19,7 +19,7 @@ span{
     height: 3px;
     margin: 3px;
     background-color: black;
-    transition: all 0.5s;
+    transition: all 0.6s;
     
 }
 
@@ -32,7 +32,7 @@ span{
   }
 
   .open:nth-child(3) {
-    transform: rotate(-45deg) translateY(-8px) translateX(8px);
+    transform: rotate(-45deg) translateY(-5px) translateX(5px);
   }
 
   .close:nth-child(1) {

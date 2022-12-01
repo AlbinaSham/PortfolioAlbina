@@ -3,7 +3,7 @@
     width: 400px;
     z-index: 3;
     position: fixed;
-    top: 40px;
+    top: 50px;
     right: 0;
     height: 100%;
     display: grid;
@@ -15,22 +15,28 @@
 .links-dropdown{
     display: flex;
     flex-direction: column; 
-    margin-top: 150px;  
+    margin-top: 160px;  
       
 }
 
 .link-dropdown{
     margin: 5px;
     font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    
 }
-.link-dropdown:hover{
+
+ link.link-dropdown :hover{
     background-color: yellow;
-    font-size: 1.3rem;
+    cursor: pointer;
+    
+    
 }
 
 @keyframes rigtToLeft {
     from{
-       right: -150px;
+       right: -130px;
     }
    to {
     right: 0.5vh;

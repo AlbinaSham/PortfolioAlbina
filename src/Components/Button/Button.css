@@ -51,3 +51,8 @@
         border: none;
         opacity: 0.7;
       }    
+      @media screen and (max-device-width: 480px) {
+        .custom-button{
+          width:50%;
+        }
+      }
