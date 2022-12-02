@@ -91,11 +91,11 @@
 }
 @media screen and (max-device-width: 480px) {
     .main-contact-me-container{
-        height: 100vh;
+        height: 70vh;
         overflow: auto;
     }
     .textArea{
-        width: 80%;
+        width: 90%;
     }
 
 }

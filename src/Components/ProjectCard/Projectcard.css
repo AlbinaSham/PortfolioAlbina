@@ -53,8 +53,20 @@
     .my-project-object{
         display: block;
     }
+   
     .decription-container{
         margin: 0 auto;
+        width: 90%;
     }
 
+ }
+
+ @media screen and (max-device-width: 460px) {
+    .gif-container{
+        width: 80%;
+    }
+    .my-project-object{
+        width: 100%;
+        margin: 2% auto;
+    }
  }

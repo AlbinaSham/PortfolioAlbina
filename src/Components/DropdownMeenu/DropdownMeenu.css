@@ -7,7 +7,6 @@
     right: 0;
     height: 100%;
     display: grid;
-    
     background-color:white;
     animation: rigtToLeft 1.2s both;    
 }
@@ -27,7 +26,8 @@
     
 }
 
- link.link-dropdown :hover{
+
+ .link-dropdown:hover{
     background-color: yellow;
     cursor: pointer;
     

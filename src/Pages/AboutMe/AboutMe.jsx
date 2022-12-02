@@ -18,7 +18,7 @@ const AboutMe = () =>{
                      </div>
 
 
-                   <div data-aos="fade-left" data-aos-delay="2100" data-aos-duration="1800" className="about-me-description">
+                   <div data-aos="fade-left" data-aos-delay="1900" data-aos-duration="1800" className="about-me-description">
                       <h3>Hi! It is me, Albina. I am a front-end developer from Toronto, Canada. </h3>
                       <br></br>
                       <p>Creating is my passion, and my primary tool to express myself is <span>React JS</span> and
