@@ -91,11 +91,17 @@
 }
 @media screen and (max-device-width: 480px) {
     .main-contact-me-container{
-        height: 70vh;
-        overflow: auto;
+        overflow:hidden;
+    }
+    .main-contact{
+        height: 75vh;
+        
+    }
+    .contact-me-icons{
+        width: 62vw;
     }
     .textArea{
-        width: 90%;
+        width: 80%;
     }
 
 }
