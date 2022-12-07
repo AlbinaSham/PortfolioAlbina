@@ -17,7 +17,7 @@ function App() {
     <Router>
        <Meenu />
       <Switch>
-        <Route to exact path='/PortfolioAlbina' component={Home}>
+        <Route to exact path='/' component={Home}>
              
         </Route>
         <Route to path='/contactme' component={ContactMe}>
