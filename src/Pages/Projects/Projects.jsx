@@ -23,6 +23,16 @@ class Projects extends React.Component {
             
           },
           {
+            title:"CHHC hospital landing page", 
+            Url: "https://giphy.com/embed/AAo05NKGorBojEJX56" ,
+            id: 4,
+            description: "Landig page for CHHC hospital",
+            tools: "ReactJs, CSS, ",
+            linkWeb: "https://albinasham.github.io/landing-page-CHHC-hospital/",
+            linkGit:"https://github.com/AlbinaSham/landing-page-CHHC-hospital" 
+            
+          },
+          {
             title: 'Book app',
             Url: 'https://giphy.com/embed/LXPhzAw20iV97PTUBV',
             id: 2,
