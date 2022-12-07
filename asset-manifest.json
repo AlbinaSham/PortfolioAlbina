@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PortfolioAlbina/static/css/main.618653bc.css",
-    "main.js": "/PortfolioAlbina/static/js/main.26d3eeb6.js",
+    "main.css": "/PortfolioAlbina/static/css/main.46a0e1b3.css",
+    "main.js": "/PortfolioAlbina/static/js/main.0566191c.js",
     "static/js/787.28cb0dcd.chunk.js": "/PortfolioAlbina/static/js/787.28cb0dcd.chunk.js",
     "static/media/4.jpg": "/PortfolioAlbina/static/media/4.e13cafc92aee3e7803df.jpg",
     "index.html": "/PortfolioAlbina/index.html",
-    "main.618653bc.css.map": "/PortfolioAlbina/static/css/main.618653bc.css.map",
-    "main.26d3eeb6.js.map": "/PortfolioAlbina/static/js/main.26d3eeb6.js.map",
+    "main.46a0e1b3.css.map": "/PortfolioAlbina/static/css/main.46a0e1b3.css.map",
+    "main.0566191c.js.map": "/PortfolioAlbina/static/js/main.0566191c.js.map",
     "787.28cb0dcd.chunk.js.map": "/PortfolioAlbina/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.618653bc.css",
-    "static/js/main.26d3eeb6.js"
+    "static/css/main.46a0e1b3.css",
+    "static/js/main.0566191c.js"
   ]
 }
