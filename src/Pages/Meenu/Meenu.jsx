@@ -16,7 +16,7 @@ const Meenu = () =>{
         <div className="Meenu"> 
         
             <nav className="navigation">
-            <Link className='option' to='/PortfolioAlbina'>
+            <Link className='option' to='/'>
                   HOME
              </Link>
              <Link className='option' to='/projects'>
