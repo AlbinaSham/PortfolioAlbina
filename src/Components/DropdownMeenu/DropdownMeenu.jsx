@@ -14,7 +14,7 @@ const DropdownMeenu = () =>{
          <div className="DropdownMeenu">
         <div className="links-dropdown">
 
-           <Link className='link-dropdown' to='/'>
+           <Link className='link-dropdown' to='/PortfolioAlbina'>
                   HOME
              </Link>
              <Link className='link-dropdown' to='/projects'>
