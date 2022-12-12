@@ -38,7 +38,7 @@ class Projects extends React.Component {
             id: 2,
             description: "Allows a user to search for a book, add it to a wish list, and remove it from it.",
             tools: 'React js, CSS, Google API',
-            linkWeb: "https://booklibrary2021.herokuapp.com/",
+            linkWeb: "https://albinasham.github.io/BookLibrary/",
             linkGit: "https://github.com/AlbinaSham/BookLibrary"
           },
           {
